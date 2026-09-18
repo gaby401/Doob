@@ -40,7 +40,7 @@ section.block{padding:86px 0}.eyebrow{font:1.15rem var(--marker);color:var(--lea
 .doob-merch-rail::-webkit-scrollbar{display:none}
 .doob-merch-card{flex:0 0 78%;max-width:280px;scroll-snap-align:center}
 .doob-merch-card figure{margin:0;background:var(--doob-panel);border:1px solid var(--doob-line);border-radius:18px;overflow:hidden}
-.doob-merch-card img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;background:#0d2f17}
+.doob-merch-card img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;background:#0d2f17}.doob-merch-pack-crop{width:100%;aspect-ratio:4/5;overflow:hidden;background:#0d2f17}.doob-merch-pack-crop img{width:100%;height:100%;object-fit:cover;object-position:center top;transform:scale(1.72);transform-origin:50% 0;aspect-ratio:auto}
 .doob-merch-card figcaption{display:flex;flex-direction:column;gap:.15rem;padding:.7rem .85rem .85rem}
 .doob-merch-name{color:var(--doob-cream);font-weight:700;font-size:.95rem}
 .doob-merch-note{color:rgba(243,239,226,.6);font-size:.8rem}
@@ -87,8 +87,8 @@ section.block{padding:86px 0}.eyebrow{font:1.15rem var(--marker);color:var(--lea
           <img src="assets/merch/tee-more-good-days.webp?v=2" width="240" height="300" loading="lazy" decoding="async" alt="More Good Days DOOB tee.">
           <figcaption><span class="doob-merch-name">More good days</span><span class="doob-merch-note">Bone, puff print</span></figcaption>
         </figure></li>
-        <li class="doob-merch-card"><figure>
-          <img src="assets/merch/backpack.webp?v=2" width="240" height="300" loading="lazy" decoding="async" alt="DOOB plush mascot backpack.">
+        <li class="doob-merch-card doob-merch-card--pack"><figure>
+          <div class="doob-merch-pack-crop"><img src="assets/merch/backpack.webp?v=3" width="240" height="300" loading="lazy" decoding="async" alt="DOOB plush mascot backpack."></div>
           <figcaption><span class="doob-merch-name">The Doob pack</span><span class="doob-merch-note">Plush, side pockets</span></figcaption>
         </figure></li>
       </ul>
